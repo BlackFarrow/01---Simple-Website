@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SG LEADS STORE</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>SG Leads Store</h1>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </div>
+
+    <div class="imageBar">
+      <div class="image">
+        <img src="images/img (1).jpg" alt="image1" class="image01" />
+      </div>
+      <div class="image">
+        <img src="images/img (2).jpg" alt="image2" class="image02" />
+      </div>
+      <div class="image">
+        <img src="images/img (3).jpg" alt="image3" class="image03" />
+      </div>
+    </div>
+    <div class="pricetable">
+      <table id="prices">
+        <tr>
+          <th>Item No</th>
+          <th>Item Name</th>
+          <th>Price (LKR)</th>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Fried Rice</td>
+          <td>800.00</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Cheese Kottu</td>
+          <td>350.00</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Biriyani</td>
+          <td>400.00</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Seafood Rice</td>
+          <td>1200.00</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Spicy Kottu</td>
+          <td>700.00</td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="discountCalculator">
+      <div class="mainbox">
+        <div class="headbox">
+          <span>Discount calculator</span>
+        </div>
+        <container class="formbox">
+          <form class="calculator">
+            <label for="">Enter the amount you paid:</label>
+            <br />
+            <input
+              id="amount"
+              type="number"
+              class="textInput"
+              placeholder="Amount you paid"
+              required
+            />
+            <br />
+            <label for="">Enter the discount rate(%):</label>
+            <br />
+            <input
+              id="rate"
+              type="number"
+              class="textInput"
+              placeholder="Discount rate (%)"
+              min="0"
+              max="100"
+              required
+            />
+            <br />
+            <button class="submit" id="calculate">Calculate</button>
+            <br />
+
+            <div class="discount" id="totalDiscount">
+              <label class="labeldiscount">Total Discount</label>
+            </div>
+
+            <div class="totalDiscount" id="totalDiscount2">
+              <span>LKR</span><span id="discount">00.00</span>
+            </div>
+          </form>
+        </container>
+      </div>
+    </div>
+    <span class="howerme">hower me</span>
+    <div class="animationbox">
+      <br>
+      <div class="animation">
+        <span>This is the best place for taste real chinese foods!!!!</span>
+      </div>
+    </div>
+
+
+
+    <div class="imageBar2">
+      <div class="image2">
+        <img src="images/img (4).jpg" alt="image1" class="image01" />
+      </div>
+      <div class="image2">
+        <img src="images/img (5).jpg" alt="image2" class="image02" />
+      </div>
+      <div class="thankyoucard">
+        <H1>Thank you!</H1>
+      </div>
+    </div>
+
+
+    <footer>
+      <p>This is a basic website that I created using HTML, CSS, and JavaScript. I incorporated various elements such as images, tables, animations, and forms, along with form validation techniques and basic JavaScript functions and operators. I am confident that this website will be useful for beginners in front-end development who are looking to learn something new.</p>
+      <a href="https://www.linkedin.com/in/salithagayan/" class="link">My LinkedIn Profile</a>
+
+      <p>Salitha Gayan Wijewardhana</p>
+    </footer>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

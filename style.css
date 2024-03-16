@@ -1,0 +1,242 @@
+body {
+  margin: 0px;
+  background-color: rgba(127, 255, 212, 0.367);
+}
+.header {
+  background-color: rgb(0, 119, 97);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 5px;
+  margin: 0px;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+  justify-content: space-between;
+  padding-right: 25px;
+
+}
+
+ul{
+    display: flex;
+    font-size: 21px;
+}
+
+li{
+    margin-right: 45px;
+    list-style: none;
+    cursor: pointer;
+}
+
+.imageBar {
+  height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.image {
+  background-color: wheat;
+  height: 400px;
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+#prices {
+  font-family: Arial, Helvetica, sans-serif;
+}
+#prices td,
+#prices th {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+#prices tr:hover {
+  background-color: #ddd;
+}
+#prices th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04aa6d;
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.pricetable {
+  display: flex;
+  justify-content: center;
+}
+
+.discountCalculator {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.formbox {
+  width: 100%;
+  background-color: #04aa6d6b;
+  padding: 10px;
+  border-radius: 0px 0px 15px 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.headbox {
+  border-radius: 15px 15px 0px 0px;
+  font-size: 25px;
+  font-weight: bo4;
+  width: 100%;
+  background-color: #00671d;
+  padding: 10px;
+  justify-content: center;
+  display: flex;
+  color: white;
+}
+
+.textInput {
+  border-style: none;
+  border-radius: 20px;
+  width: 450px;
+  height: 35px;
+  padding-left: 25px;
+  outline: none;
+  margin-bottom: 15px;
+}
+
+.submit {
+  border-style: none;
+  border-radius: 20px;
+  width: 475px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #fa4499;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.discount {
+    padding:8px;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  font-size: 22px;
+  border-radius: 15px 15px 0px 0px;
+  margin-top: 20px;
+
+}
+#submit:hover {
+  background-color: #cfcfcf;
+  color:#000000;
+}
+
+.totalDiscount{
+    font-size: 23px;
+    background-color: aqua;
+    border-radius: 0px 0px 15px 15px;
+    padding:8px;
+    display: flex;
+    justify-content: center;
+   
+}
+
+.animationbox{
+  display: flex;
+}
+
+.howerme{
+  margin-left: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(0, 0, 0);
+  padding: 6px;
+  border-radius: 10px;
+  color: white;
+
+}
+.animation{
+  background-color: #0481aa4b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  border-radius: 100px 100px;
+  margin: 10px;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  color:#00000000;
+  transition: width 4s;
+  animation-duration: 4s;
+  cursor: pointer;
+
+
+}
+.animation:hover {
+  width: 100%;
+  color:#000000;
+}
+
+.imageBar2 {
+  height: 400px;
+  margin: 10px;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.image2 {
+  background-color: wheat;
+  height: 400px;
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+}
+
+.thankyoucard {
+  background-color: rgb(0, 159, 127);
+  height: 400px;
+  border-radius: 10px;
+  width: 33%;
+  text-align: center;
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer{
+  background-color: hsl(137, 100%, 17%);
+  height: 150px;
+  border-radius: 15px 15px 0px 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+
+.link{
+  text-decoration: none;
+  color: #ddd;
+}
+
