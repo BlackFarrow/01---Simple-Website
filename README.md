@@ -1,0 +1,1 @@
+This is a basic website that I created using HTML, CSS, and JavaScript. I incorporated various elements such as images, tables, animations, and forms, along with form validation techniques and basic JavaScript functions and operators. I am confident that this website will be useful for beginners in front-end development who are looking to learn something new.
